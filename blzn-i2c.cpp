@@ -1,1 +1,6 @@
-file name: blzn-i2c.cpp
+//
+//
+//file name: blzn-i2c.cpp
+//
+//i2c driver
+//
