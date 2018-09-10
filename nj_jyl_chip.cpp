@@ -12,7 +12,7 @@
 //
 //wireless:wifi/BLE/Zigbee/NFC
 //
-//门锁
+//智能锁
 //无人机
 //
 //图传：流媒体, RTP&RTSP, Camera, DVP格式, YUV格式, MJPEG, FFMPEG
