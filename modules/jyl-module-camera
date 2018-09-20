@@ -1,0 +1,51 @@
+
+#brief:		camera modules
+#company:	blzn
+#
+#date:		20180921
+#city:		nanjing
+#author:	jyl
+
+
+#BF2013, BF3703 (BYD)
+#GC0328(格科微)
+
+#640x480
+
+#output format: YUV, YCbCr
+#	YUV422
+#	UYVY格式
+
+#interface: dvp
+#	PIX_CLK---24MHz,像素同步信号
+#	FRAME_VLD
+#	LINE_VLD
+
+##PIX_CLK---像素同步信号，每一个PIX_CLK对应一个像素点。
+##HSYNC---行同步信号，一个HSYNC信号表示一行的数据已经输出完毕。
+##VSYNC---场/帧同步信号，一个VSYNC信号表示一帧（即一个画面）的数据已经输出完毕。
+  以高电平有效为例，VSYNC置高直到被拉低，这个区段所输出的所有影像数据组成一个frame。
+
+
+#	PIX_Data0~7
+
+#i2c---SDA and SCL
+#100KHz,400KHz,3.3MHz,3.4MHz
+
+#Power:AVDD---2.8V,camera的模拟电压
+#	DOVDD---1.8V,camera的GPIO口数字电压
+#	DVDD---1.8V,camera的核工作电压
+#
+#
+
+/******************************************?
+*
+*
+*
+*
+*/
+无人机图传：
+camera 	==> 	yuv数据		(OCRAM)
+mjpeg	==> 	jpeg图像	(psRAM)
+wifi
+

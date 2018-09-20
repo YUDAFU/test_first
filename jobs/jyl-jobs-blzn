@@ -1,0 +1,26 @@
+/****************************************************
+*
+* brief: 	blzn-bl606a0-chip
+* description: 	cortex-m4fp dual kernel + RT-Thread + wifi module
+* company: 	blzn
+*
+* date:   	20180806
+* city:   	nanjing
+* author: 	yljia
+****************************************************/
+//
+#Wireless:wifi/BLE/Zigbee/NFC
+//
+//智能锁
+//无人机
+//
+#图传：流媒体, RTP&RTSP, 
+#Camera：DVP, YUV422格式, MJPEG, FFMPEG
+
+//
+//i2c
+//spi
+//sdio
+//uart
+//
+
